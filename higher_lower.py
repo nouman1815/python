@@ -32,14 +32,14 @@ def compare():
 def second():
     global a,b,A,B
     # print(logo)
-    A = random.choice(data)
+   
     a = (A['follower_count'])
     a= int(a)
     print("\nNEXT COMPARISON\n")
     print(f"Compare A : {A['name']} a {A['description']} from {A['country']}")
     print(vs)
 
-    B = random.choice(data)
+    
     b = (B['follower_count'])
     b= int(b)
     print(f"Against B:{B['name']} a {B['description']} from {B['country']}")
